@@ -17,7 +17,6 @@ DEFAULT_MODEL = "openai/gpt-oss-120b"
 
 AVAILABLE_MODELS = [
     "openai/gpt-oss-120b",
-    "openai/gpt-oss-20b",
 ]
 
 CONTENT_TYPES = [
@@ -391,7 +390,7 @@ def display_concern(concern):
 st.markdown(
     """
     <div class="hero">
-        <h1>Human Touch Quality Layer</h1>
+        <h1>Human Touch AI Evaluator</h1>
         <p>
             An AI-powered communication quality-control layer that evaluates
             whether your message feels human, empathetic, natural,
